@@ -8,7 +8,7 @@ from urllib import request
 import requests
 
 
-file_url = 'https://storage.googleapis.com/eth-telegram.appspot.com/signed-PentestTools-XssScanner-report.pdf'
+file_url = 'example.com/file_1'
 response = requests.get(file_urly)
 data = response.content
 print(data)
